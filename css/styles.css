@@ -30,12 +30,15 @@ body {
     border-radius: 10px;
 }
 
+.wp-block-button{
+    margin-top: 100px;
+}
 .wp-element-button{
     height: 100px;
     width: 100px;
     background-color: #131842;
     color: #FBF6E2;
     text-decoration: none;
-    padding: 10px;
-    border-radius: 10px;
+    padding: 30px;
+    border-radius: 50px;
 }

@@ -13,6 +13,7 @@
 <div class="blog-content">
     <?php the_content(); ?>
 </div>
+
 <?php endwhile; ?>
 <?php
 if ( get_next_posts_link() ) {
@@ -20,6 +21,7 @@ next_posts_link();
 }
 ?>
 <?php endif; ?>
+
 
 
 

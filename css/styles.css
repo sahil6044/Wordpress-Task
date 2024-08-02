@@ -7,6 +7,11 @@ body {
     text-align: center;
    
 }
+a{
+    text-decoration: none;
+    color: #191650;
+   
+}
 
 .title-header {
     color: #000000;

@@ -7,14 +7,17 @@
 
 </head>
 <body>
+<h1 class="blog-header"><?php bloginfo( 'name' ); ?></h1>
+<?php if ( have_posts() ) : while ( have_posts() ) : the_post();
 
-<?php if ( have_posts() ) : while ( have_posts() ) : the_post(); ?>
-<h1 class="title-header" > <?php the_title(); ?> </h1>
-<div class="blog-content">
-    <?php the_content(); ?>
+?>
+<div class="title-style ">
+    <h1 class="title-header"><a href="<?php the_permalink(); ?>"><?php the_title(); ?></a></h1>
 </div>
 
+
 <?php endwhile; ?>
+
 <?php
 if ( get_next_posts_link() ) {
 next_posts_link();
